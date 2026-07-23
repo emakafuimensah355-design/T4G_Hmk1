@@ -45,3 +45,14 @@ console.log("Type of numberValue:", typeof numberValue);
 // J. Set the value of a variable to a string and log the type of data it is
 let stringValue = "JavaScript";
 console.log("Type of stringValue:", typeof stringValue);
+
+// Display alert based on age entered
+if (age < 12) {
+    alert(`Hi ${username}, you are ${age} years old and you are too young to register. Sorry 😔😔`);
+}
+else if (age >= 12 && age < 18) {
+    alert(`Hi ${username}, you are ${age} years old and you have limited options to register for. We will keep in touch via your email: ${email}. 👏🏽👏🏽`);
+}
+else {
+    alert(`Hi ${username}, you are ${age} years old and you can register for any option of your choosing. We will keep in touch via your email: ${email}. 👏🏽👏🏽`);
+}
